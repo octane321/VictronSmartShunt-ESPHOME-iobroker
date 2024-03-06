@@ -2,14 +2,12 @@
 # reduce publishes - delta + udateintervall
 
 substitutions:
-
   external_components_source: github://KinDR007/VictronMPPT-ESPHOME@main
-
-  board: nodemcuv2                    # esp32dev / az-delivery-devkit-v4 / esp32cam / esp32doit-devkit-v1                          esp32doit-devkit-v1 = 30pin NodeMCU | esp32dev/az-delivery-devkit-v4 = 38pin NodeMCU V3
-  name: victron-smartshunt            # jk-bms1         #unique node-name. lowercase characters, digits and hyphens
-  mqtt_id: SMARTSHUNT                 # JK_BMS1
-  prefix: PV                          # PV/Batteries    #the path where the device should appear - e.g. 
-  subtopic: SmartShunt                # JK_BMS1         #the name which the device shows up in the path e.g.  --> PV/Batteries/JK_BMS1/.....
+  board: nodemcuv2                    # esp32dev / az-delivery-devkit-v4 / esp32doit-devkit-v1  (esp32doit-devkit-v1 = 30pin NodeMCU | esp32dev/az-delivery-devkit-v4 = 38pin NodeMCU V3)
+  name: victron-smartshunt            #unique node-name. lowercase characters, digits and hyphens
+  mqtt_id: SMARTSHUNT
+  prefix: PV                          #the path where the device should appear - e.g. 
+  subtopic: SmartShunt                #the name which the device shows up in the path e.g.  --> PV/Batteries/JK_BMS1/.....
   ip: 192.168.1.150
   device_description: "Monitor a Victron SmartShunt via UART/TTL"
   sensor_force_update_time: 60s
