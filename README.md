@@ -10,6 +10,8 @@ Also added:
 * uptime sensor
 * wifi signal sensor
 * UART connection indicator as a binary sensor, as well as a number (0 = disconnected / 1 = connected)
+* reads UART package every 1s (configurable variable "victron_throttle") - and does not drop packages via fixed throttle
+* MQTT publish only on value change or after reaching "sensor_force_update_time" (defaults to 60s)
 
 ## MQTT Topic structure made for IOBroker
 
