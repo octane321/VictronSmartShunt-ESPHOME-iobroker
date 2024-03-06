@@ -11,6 +11,12 @@ Also added:
 * wifi signal sensor
 * UART connection indicator as a binary sensor, as well as a number (0 = disconnected / 1 = connected)
 
+## MQTT Topic structure made for IOBroker
+
+<a href="images/structure_1.jpg" target="_blank">
+<img src="images/structure_1.jpg" width="50%">
+</a>
+
 ## Tested devices
   
   * Victron SmartShunt 500A/50mV
