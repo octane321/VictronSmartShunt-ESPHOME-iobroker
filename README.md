@@ -14,7 +14,15 @@ Also added:
 ## MQTT Topic structure made for IOBroker
 
 <a href="images/structure_1.jpg" target="_blank">
-<img src="images/structure_1.jpg" width="50%">
+<img src="images/structure_1.jpg" width="30%">
+</a>
+
+<a href="images/structure_2.jpg" target="_blank">
+<img src="images/structure_2.jpg" width="30%">
+</a>
+
+<a href="images/structure_3.jpg" target="_blank">
+<img src="images/structure_3.jpg" width="30%">
 </a>
 
 ## Tested devices
