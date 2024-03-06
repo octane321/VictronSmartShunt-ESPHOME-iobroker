@@ -1,8 +1,8 @@
-# VictronMPPT-ESPHOME 
+# VictronSmartShunt-ESPHOME-iobroker
 
 ESPHome component to monitor a Victron SmarShunt via ve.direct / UART TTL with an ESP8266 Board
 
-Its made for IoBroker with mqtt connection
+Its customized for IoBroker with mqtt connection
 
 Also added:
 * Restart Button (topic is publishes to the broker after startup with payload "PRESS " - to restart the ESP, send "PRESS" to this topic)
